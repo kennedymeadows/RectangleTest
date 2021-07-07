@@ -8,5 +8,6 @@ Exercise 1b*/
 
 int main()
 {
-   const Rectangle box1(1.0, 1.0);
+   const Rectangle box1(2.3, 7.6);
+   box1.printRectangle(box1);
 }

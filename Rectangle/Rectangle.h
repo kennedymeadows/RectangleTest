@@ -15,6 +15,7 @@ public:                 //function prototypes
    double getLength() const;
    double getWidth() const;
    double getArea() const;
+   void printRectangle(const Rectangle&) const;
 };
 
 #endif

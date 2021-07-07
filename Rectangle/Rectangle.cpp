@@ -72,3 +72,11 @@ double Rectangle::getArea() const
 {
    return length * width;
 }
+
+void Rectangle::printRectangle(const Rectangle& rect) const
+{
+   cout << "Length is: " << rect.getLength() << endl
+        << "Width is: " << rect.getWidth() << endl
+        << "Area is: " << rect.getArea() << endl;
+}
+
